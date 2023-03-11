@@ -8,9 +8,9 @@ La función MultiOutputRegressor admite varios modelos de regresión: KNN, Linea
 
 Documentación -> https://scikit-learn.org/stable/modules/generated/sklearn.multioutput.MultiOutputRegressor.html
 
-Obs. Este tipo de modelo no es fácil de ajustar, ya que ajustar la variable predictora puede mejorar y1, pero empeorar y2. Lograr un equilibrio no es tarea fácil.
-
 Obs. Para este caso, utilizaremos datos ficticios que representan un caso real.
 
 Obs. Nuestro trabajo aquí es analizar este enfoque y descubrir si puede ayudarnos durante los proyectos de ciencia de datos. Por lo tanto, los datos ficticios son suficientes. 
+
+Obs. Este tipo de modelo no es fácil de ajustar, ya que ajustar la variable predictora puede mejorar y1, pero empeorar y2. Lograr un equilibrio no es tarea fácil. Además, el resultado fue bueno porque los datos eran ficticios, para datos reales el resultado puede no ser satisfactorio precisamente por la complejidad del ajuste para estos casos.
 
